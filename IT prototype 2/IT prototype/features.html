@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Destinations - Jovees Journeys</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b0244;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .navbar {
+      background-color: #070133;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar-logo img {
+      height: 50px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #e0c95c;
+      color: #0b0244;
+    }
+
+    .page-title {
+      text-align: center;
+      font-size: 36px;
+      color: #e0c95c;
+      margin-top: 50px;
+    }
+
+    .page-content {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #ccc;
+      text-align: center;
+    }
+
+    .background-decor {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 300px;
+      background: url('background.png') no-repeat center/cover;
+      opacity: 0.2;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html"><img src="e2.png" alt="Jovees Logo"></a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="destination.html">Destinations</a>
+      <a href="deals.html">Deals</a>
+      <a href="features.html">Features</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="page-title">Features</h1>
+    <p class="page-content">More information coming soon.</p>
+    <div class="background-decor"></div>
+  </div>
+</body>
+</html>
